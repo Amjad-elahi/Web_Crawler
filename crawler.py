@@ -68,7 +68,7 @@ if __name__ == "__main__":
     # Crawl 10 pages
     data = crawl_pages(10) 
     
-    # Create an excel to store data
+    # Create an excel file to store data
     df = pd.DataFrame(data)
     df.to_excel("contractors.xlsx", index=False)
     print("Data successfully saved to contractors.xlsx")
