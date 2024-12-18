@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
+# main url to extract data
 BASE_URL = "https://muqawil.org/en/contractors"
 
 def fetch_content(url):
